@@ -1,0 +1,21 @@
+body{
+font-family:sans-serif;
+padding:40px;
+background:#f4f4f4;
+}
+
+.section{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:8px;
+}
+
+table{
+border-collapse:collapse;
+}
+
+td,th{
+border:1px solid #ccc;
+padding:8px;
+}

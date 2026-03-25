@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>JS練習 Level2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>JavaScript 実践練習</h1>
+
+<div class="section">
+<h2>① セッション参加曲数制限（チェックボックス）</h2>
+
+<label><input type="checkbox" class="song">曲A</label>
+<label><input type="checkbox" class="song">曲B</label>
+<label><input type="checkbox" class="song">曲C</label>
+<label><input type="checkbox" class="song">曲D</label>
+
+<p id="songResult"></p>
+
+</div>
+
+<div class="section">
+
+<h2>② 入力フォームチェック（バリデーション）</h2>
+
+<input id="name" placeholder="名前">
+<input id="email" placeholder="メール">
+
+<button onclick="validateForm()">送信</button>
+
+<p id="formResult"></p>
+
+</div>
+
+<div class="section">
+
+<h2>③ JSONデータ表示（建築案件）</h2>
+
+<button onclick="showProjects()">表示</button>
+
+<ul id="projectList"></ul>
+
+</div>
+
+<div class="section">
+
+<h2>④ テーブル生成（工事一覧）</h2>
+
+<button onclick="createTable()">作成</button>
+
+<table id="workTable"></table>
+
+</div>
+
+<div class="section">
+
+<h2>⑤ 合計コスト計算（建築管理）</h2>
+
+<button onclick="calcCost()">計算</button>
+
+<p id="costResult"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
