@@ -2,11 +2,15 @@ def write_data_to_csv()
   restaurants = []
   respomse = "hogehoge"
 
-  if respomse == nil or response["results"].has_key?("error") then
+  if respomse.has_key?("error") then
     puts "エラーが発生しました！"
     return
   end
-
+  for restaurant in response["results"]["shop"]do
+    rest_name = restaurant["name"]
+    restaurants.append(rest_name) 
+  end
+  
   return puts restaurants
 end
 
