@@ -4,7 +4,7 @@
 # end
 
 def check(num)
-  if num == 42 then
+  if num == 42
     puts "Answer to the Ultimate Question of Life,the Universe,and Everything"
     else
     puts "42以外です"
@@ -30,3 +30,7 @@ sort_numbers(36)
 
 puts $even_nums
 puts $odd_nums
+
+p $even_nums
+p $odd_nums
+
